@@ -1,0 +1,46 @@
+.header {
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+.wrapper {
+  display: flex;
+}
+
+aside {
+  width: 20%;
+  padding: 2%;
+  border-right: 1px solid black;
+  height: 100vh;
+}
+
+aside ul {
+  margin-top: 80px;
+}
+
+aside li {
+  margin: 1%;
+  margin-bottom: 3%;
+  font: Arial 1.3rem;
+  color: #1DA1F2;
+  list-style-type: square;
+}
+
+aside a {
+  color: #1DA1F2;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+aside a:hover {
+  color: #297fb5;
+  text-decoration: none;
+}
+
+main {
+  width: 80%;
+}
+
+main h2 {
+  margin-left: 5%;
+}

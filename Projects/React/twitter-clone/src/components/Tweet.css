@@ -1,0 +1,101 @@
+.tweet {
+    width: 300px;
+    border: 1px solid darkgrey;
+    border-radius: 10px;
+    margin: 5%;
+    padding: 2%;
+  }
+  
+  .tweet-header {
+    display: flex;
+    height: 80%;
+  }
+
+  .tweet-footer {
+    height: 20%;
+  }
+
+  .tweet h6 {
+    font-weight: 300;
+    margin: 20px 0px 0px 0px;
+  }
+
+  .tweet h6 a {
+    text-decoration: none;
+    color: black;
+  }
+
+  hr{
+    margin-bottom: -10px;
+  }
+
+  .profile-header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: -30px;
+  }
+  
+  .profile-text {
+    display: block;
+    margin-bottom: 8%;
+  }
+  
+  .tweet .icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: -7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .icon a {
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+  }
+
+  .tweet h3 {
+    margin-top: 20px;
+  }
+
+  .tweet h3 a {
+    color: black;
+    text-decoration: none;
+  }
+
+  .tweet h3 a:hover {
+    color: black;
+    text-decoration: underline;
+  }
+
+  .username {
+    color:	#657786;
+    margin-top: -20px;
+  }
+
+  .left {
+    width: 90%;
+    margin-top: -20px;
+  }
+  .right {
+    width: 10%;
+  }
+
+  .tweet-footer span {
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+
+  .like:hover{
+    color: red;
+  }
+  .comment:hover{
+    color: mediumturquoise;
+  }
+  .link:hover {
+    color: lime;
+  }
